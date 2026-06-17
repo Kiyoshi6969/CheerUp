@@ -5,7 +5,7 @@ const MEMORIES = [
     src: "/images/elevator.jpg",
     alt: "Mirror selfie in an elevator",
     tag: "the elevator selfie era",
-    note: "You throw a peace sign in literally every elevator. I've counted. At least eleven.",
+    note: "Your smile reminds me just how lucky I am.",
   },
   {
     src: "/images/lights.jpg",
@@ -17,13 +17,13 @@ const MEMORIES = [
     src: "/images/carselfie.jpg",
     alt: "Close selfie leaning on each other by the car",
     tag: "the 'about to head home' selfie",
-    note: "98% of our photos happen in or next to a car. Should we fix that? Nah.",
+    note: "This picture is a perfect snapshot of how I feel when I'm with you: completely at ease, and exactly where I want to be, luv.",
   },
   {
     src: "/images/silly.jpg",
     alt: "Making silly faces for a selfie",
     tag: "exhibit A: the faces we make",
-    note: "This, apparently, is what true love looks like.",
+    note: "I love that we can be our silliest, most goofy selves together. You make me laugh like no one else can.",
   },
 ];
 
