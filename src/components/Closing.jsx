@@ -46,7 +46,7 @@ export default function Closing() {
       </div>
 
       <p className="closing__kicker">last thing, promise</p>
-      <h2 className="closing__title">I love you. always.</h2>
+      <h2 className="closing__title">I'm always here for you my luvv!</h2>
       <p className="closing__subtitle">
         cheer up a little, love — even just a little is enough for now.
       </p>
