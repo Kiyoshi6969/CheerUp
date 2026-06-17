@@ -1,0 +1,62 @@
+:root {
+  /* Color tokens — a dusk-into-fairy-light palette, soft on the eyes */
+  --dusk-deep: #2a2438;
+  --dusk-mid: #423a56;
+  --dusk-soft: #6b5d7e;
+  --glow-amber: #f3c89f;
+  --blush: #f1b9c4;
+  --cream: #fbf3ec;
+  --cream-dim: #efe3d6;
+  --ink: #2e2630;
+
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "Quicksand", system-ui, sans-serif;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--dusk-deep);
+  color: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
